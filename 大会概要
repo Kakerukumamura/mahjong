@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="page_style.css"> 
+  <title>
+    大会ホームページ
+  </title>
+</head>
+<body bgcolor="#fafad2">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+$(function() {
+
+    $(".side-bar").click(function() {
+        $(".element").slideToggle("");
+    });
+});
+</script>
+  <h1>
+    第1回三原高校麻雀格闘倶楽部大会
+  </h1>
+  大会の開催内容です。
+  <br></br>
+  <div class="container">
+    <div class="side-menu">
+      <div class="side-bar"><strong>menu</strong></div>
+      <div class="element"><img src="images/pin1.jpg" width="22">　<a href="index.html">ホーム</a><br></br><img src="images/pin2.jpg" width="22">　<a href="大会概要.html">大会概要</a>
+        <br><br><img src="images/pin3.jpg" width="22">　<a href="大会ルール.html">大会ルール</a></br><br><img src="images/pin4.jpg" width="22">　<a href="役.html">役</a></br><br><img src="images/pin5.jpg" width="22">　<a href="点数計算.html">点数計算</a></br></div>
+    </div>
+    <div class="main-contents">
+      <div id="midashi"><strong>大会概要</strong></div>
+      <p><strong>(大会形式)</strong><br>
+         1チーム3人(全4チーム12人)の<strong>チーム戦</strong></br><br>
+         <strong>(賞金形態)</strong><br>
+         (賞金12000円)1人1000円を徴収し、一位のチームが賞金を総取り山分け。<br></br>
+         <strong>(個人賞)</strong><br>
+         役満賞、MVP賞(個人トータルptが最も多い)を用意<br></br>
+         <strong>(試合数)</strong><br>
+         1人5試合(全15試合)※時間などの状況によって1人4試合に変更<br></br>
+
+      </p>
+    </div>
+  </div>
+</body>
+</html>
