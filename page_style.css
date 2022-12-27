@@ -1,0 +1,114 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-contents {
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+  box-shadow:5px 5px 10px;
+}
+
+.side-menu {
+  width: 15%;
+  padding: 10px;
+  background-color: #fafad2;
+}
+.side-bar{
+  width: 150px;
+  padding: 10px; 
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #f08080;
+}
+.side-bar:hover {
+    opacity: 0.7;
+    border-radius: 10px;
+    color: white;
+    }
+.element{
+  width: 150px;
+  padding: 10px;
+  animation-name: fade;
+  animation-duration: 2s;
+  background-color: #98fb98;
+  display: none;
+}
+.yaku{
+  background-color:#dcdcdc; 
+  padding: 7px; 
+  font-family: 'HGP行書体',cursive
+}
+.explain{
+  padding-top: 0.1px;
+  padding-left: 5px;
+  box-shadow:2px 2px 5px rgba(178, 0, 0, 0.5);
+}
+.hukeisan_y{
+  display: flex;
+}
+#page_top{
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #e25407;
+  opacity: 0.6;
+  border-radius: 50%;
+  }
+
+  /* Font Awesome */
+  #page_top::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\025b2';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: -15px;
+    bottom: 0;
+    right: 0;
+    left: -17px;
+    margin: auto;
+    text-align: center;
+  }
+@keyframes fade{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+#midashi{
+    font-size: 24px;
+    background-color: #32cd32;
+    padding: 15px
+}
+#yaku_m{
+    text-align: center;
+    font-family: '游明朝 Medium', serif;
+    font-size: 24px;
+    background-color: #32cd32;
+    padding: 15px
+}
+#yakuman_m{
+    text-align: center;
+    font-family: '游明朝 Medium', serif;
+    font-size: 24px;
+    background-color: #ffd700;
+    padding: 15px
+}
+table ,td,th{
+    font-size: 18px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-collapse: collapse;
+}
